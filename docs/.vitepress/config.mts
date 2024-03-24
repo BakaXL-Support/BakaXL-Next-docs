@@ -3,9 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   assetsDir: "assets",
-  head: [
-    ["link", { rel: "icon", type: "image/png", href: "/public/logo.png" }],
-  ],
+  head: [["link", { rel: "icon", type: "image/png", href: "/logo.png" }]],
   locales: {
     root: {
       label: "简体中文",

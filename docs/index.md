@@ -6,7 +6,7 @@ hero:
   name: "BakaXL Help Center"
   text: "下一代 BakaXL 用户帮助文档中心"
   tagline: 为 BakaXL 4.0 用户打造的帮助文档
-  image: "/public/logo.png"
+  image: "/logo.png"
   actions:
     - theme: brand
       text: 开始使用 BakaXL

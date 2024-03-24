@@ -6,7 +6,7 @@ hero:
   name: "BakaXL Help Center"
   text: "The next generate user help center"
   tagline: "For BakaXL 4.0 build"
-  image: "/public/logo.png"
+  image: "/logo.png"
   actions:
     - theme: brand
       text: Start use!
