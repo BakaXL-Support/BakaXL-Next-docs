@@ -11,7 +11,7 @@ export default defineConfig({
       description: "下一代 BakaXL 用户帮助文档中心",
       lang: "zh-CN",
       themeConfig: {
-        logo: "/public/logo.png",
+        logo: "/logo.png",
         // https://vitepress.dev/reference/default-theme-config
         nav: [
           { text: "主页", link: "/" },
@@ -40,7 +40,7 @@ export default defineConfig({
       title: "BakaXL Help Center",
       description: "The next generation of BakaXL user help documentation.",
       themeConfig: {
-        logo: "/public/logo.png",
+        logo: "/logo.png",
         // https://vitepress.dev/reference/default-theme-config
         nav: [
           { text: "Home", link: "/" },
