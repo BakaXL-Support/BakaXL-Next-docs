@@ -1,11 +1,9 @@
+node_modules
+dist
 .idea/*
 .vscode/*
 .vs/*
-docs/.vitepress/.temp/**
-docs/.vitepress/.cache/**
-dist
+/.vitepress/**
 /docs/.vitepress/dist
-node_modules
-/docs/.vitepress/.temp
-/docs/.vitepress/.cache
-docs/.vitepress/cache/deps
+/docs/.vitepress/cache/deps
+

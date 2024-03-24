@@ -4,23 +4,23 @@ layout: home
 
 hero:
   name: "BakaXL Help Center"
-  text: "下一代 BakaXL 用户帮助文档中心"
-  tagline: 为 BakaXL 4.0 用户打造的帮助文档
+  text: "The next generate user help center"
+  tagline: "For BakaXL 4.0 build"
   image: "/public/logo.png"
   actions:
     - theme: brand
-      text: 开始使用 BakaXL
+      text: Start use!
       link: /start-use-bakaxl
     - theme: alt
-      text: 在 BakaXL 中遇到了困难
+      text: Have problem?
       link: /problem-doc
 
 features:
-  - title: 全新设计，全新体验
+  - title: New Design, New Experience
     details: 
-  - title: 开放自由，社区包容
+  - title: Open & Free Community
     details: 
-  - title: 互帮互助，共同进步
+  - title: Help each other，GL&HF
     details: 
 ---
 
