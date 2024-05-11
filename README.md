@@ -10,10 +10,10 @@
 > 诊断方法为在 PowerShell 或 CMD 中输入 `node -v` 与 `npm -v` 为您安装的 node 版本号
 
 
-在这里我们推荐使用 pnpm 来安装依赖包，因此打开您的终端工具并安装 pnpm
+在这里我们推荐使用 node 22 
 
 ```bash
-npm install -g pnpm
+corepack enable
 ```
 
 而后打开您本地的仓库文件夹，在里面打开终端，输入
