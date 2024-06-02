@@ -1,6 +1,11 @@
 {
-  "name": "BakaXL Next Docs",
+  "name": "bakaxl-next-docs",
+  "private": true,
   "devDependencies": {
+    "@nolebase/vitepress-plugin-enhanced-mark": "^2.0.0",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.0.0",
+    "@nolebase/vitepress-plugin-git-changelog": "^2.0.0",
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.0.0",
     "vitepress": "^1.1.4"
   },
   "scripts": {
@@ -16,5 +21,9 @@
       ]
     }
   },
-  "packageManager": "pnpm@9.1.0"
+  "packageManager": "pnpm@9.1.0",
+  "dependencies": {
+    "unocss": "^0.60.4",
+    "vue": "^3.4.27"
+  }
 }
