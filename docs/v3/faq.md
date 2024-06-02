@@ -55,17 +55,17 @@
 
 ### 我使用 BakaXL 启动其他启动器所安装的游戏版本，但 Mod 、资源包、光影未加载 / 存档消失了
 
-这通常是因为您先前所使用的启动器**未打开**[**版本隔离**](./about_version_seperation.md "关于版本隔离")导致的。
+这通常是因为您先前所使用的启动器**未打开**[**版本隔离**](./minecraft-version-seperation "关于版本隔离")导致的。
 
 为避免新手存在**无法同时安装多个含加载器的版本**的问题，BakaXL 默认且**锁定**为开启版本隔离。
 
 若存在 Mod / 资源包 / 光影 / 存档 / 数据包 等不加载的情况：
 
-1. 请使用 BakaXL [安装含对应 Mod 加载器的版本](./BakaXL_Use_Docs.md#添加已拥有的-minecraft-核心-或-整合包)（精确到加载器版本号）；
+1. 请使用 BakaXL [安装含对应 Mod 加载器的版本](./index#添加已拥有的-minecraft-核心-或-整合包)（精确到加载器版本号）；
 2. 将 *`.minecraft`* 目录下 *`saves`*（游戏存档），*`mods`*（模组），*`resourcepacks`*（资源包），*`shaderpacks`*（光影包）文件夹移动至 *`.minecraft/versions/(对应版本的文件夹名称)`* 文件夹中；
 3. 重新启动该版本。
 
-若希望同步版本之间的 Mod，资源包，光影，存档等，请参考此篇文档：[关于版本隔离](./About_Version_Seperation.md "关于版本隔离")
+若希望同步版本之间的 Mod，资源包，光影，存档等，请参考此篇文档：[关于版本隔离](./minecraft-version-seperation "关于版本隔离")
 
 > 若您使用 `Fabric` 作为模组加载器，请安装 `Mod Menu` 模组，否则将不会在游戏内显示 `Mod` 按钮。
 
@@ -87,7 +87,7 @@
 
 #### 若您的游戏版本是 Minecraft 1.8 - 1.16.5
 
-请参考此篇文档：[Minecraft 1.8 - 1.16.5 崩溃如何处理？](./Minecraft_1.8-1.16.5_CRQA.md)
+请参考此篇文档：[Minecraft 1.8 - 1.16.5 崩溃如何处理？](./minecraft-faq)
 
 #### 若您的版本是 Minecraft 1.7.10
 
@@ -115,7 +115,7 @@
 
 2. Mod 冲突 / 存在不适配的 Mod / 缺少前置 Mod：
 
-请参考此篇文档：[>>> Mod 冲突](./Minecraft_1.8-1.16.5_CRQA.md/#mod-冲突)
+请参考此篇文档：[>>> Mod 冲突](./minecraft-faq#mod-冲突)
 
 ## 联机攻略
 
@@ -340,8 +340,3 @@ BakaXL 大厅本身并不限制游戏人数，该限制来自 Minecraft 本身�
 - 在 BakaXL 帮助文档中心求助: [以提议的方式求助](https://github.com/BakaXL-Support/BakaXL-QA-docs/issues/new/choose) [以讨论的方式求助](https://github.com/BakaXL-Support/BakaXL-QA-docs/discussions)。
 
 > 通常来说在帮助文档中心求助我们更建议以 *提议的方式* 发送您的问题，但是有些麻烦，因为需要您提供足够的信息来分析原因。
->
-> 您通常提前得知道如何正确将信息给予我们。
-
-[《如何正确地请求别人的帮助？》](./How_To_Asking_Question.md)
-
