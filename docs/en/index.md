@@ -9,18 +9,18 @@ hero:
   image: "/logo.png"
   actions:
     - theme: brand
-      text: Start use!
+      text: 🚀 Start use!
       link: /start-use-bakaxl
     - theme: alt
-      text: Have problem?
+      text: 🆘 Have problem?
       link: /problem-doc
 
 features:
-  - title: New Design, New Experience
+  - title: ✨ New Design, New Experience
     details: 
-  - title: Open & Free Community
+  - title: 💬 Open & Free Community
     details: 
-  - title: Help each other，GL&HF
+  - title: 🐕‍🦺 Help each other，GL&HF
     details: 
 ---
 

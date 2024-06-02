@@ -10,7 +10,7 @@ const members = computed(() => [
   {
     avatar: "https://github.com/tt702.png",
     name: "TT702",
-    title: t("Author"),
+    title: t("作者"),
     links: [
       { icon: "github", link: "https://github.com/TT702" },
       {
@@ -22,7 +22,7 @@ const members = computed(() => [
   {
     avatar: "https://github.com/imfanhua.png",
     name: "Fanhua",
-    title: t("Team member"),
+    title: t("团队成员"),
     links: [
       { icon: "github", link: "https://github.com/imfanhua" },
       {
@@ -34,7 +34,7 @@ const members = computed(() => [
   {
     avatar: "https://github.com/ZhaiSoul.png",
     name: "ZhaiSoul",
-    title: t("Team member"),
+    title: t("团队成员"),
     links: [{ icon: "github", link: "https://github.com/ZhaiSoul" }],
   },
 ]);
@@ -43,7 +43,7 @@ const members = computed(() => [
 <template>
   <div flex="~ col wrap" mt8 items-center>
     <h2 text="center gray xl" mt-11 mb-4 pb-2>
-      {{ t("BakaXL 开发自") }}
+      {{ t("BakaXL 开发自 ❤") }}
     </h2>
     <VPTeamMembers size="small" :members="members" />
     <!-- <img src="https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.wide.svg" />

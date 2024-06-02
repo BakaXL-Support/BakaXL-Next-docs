@@ -7,7 +7,7 @@ export const eng = {
   "遇到问题?": "FAQ",
   "v3（稳定版）": "v3 (Stable)",
   "v4（预览版）": "v4 (Preview)",
-  "用💴发电": "Make with 💴",
+  "用 💴 发电": "Make with 💴",
   "在 GithuB 上编辑此页": "Edit this page on GitHub",
   "zh-CN": "en-US",
   中文: "English",
@@ -26,6 +26,9 @@ export const eng = {
   游戏版本隔离: "Game Version Isolation",
   制作游戏整合包: "Create Game Modpack",
   编写规则: "Write Rules",
+  作者: "Author",
+  团队成员: "Team Member",
+  "BakaXL 开发自 ❤": "BakaXL Developed by ❤",
 };
 
 export const langMap: Record<string, Record<string, string>> = {

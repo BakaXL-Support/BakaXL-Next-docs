@@ -24,35 +24,35 @@ export const getLocaleConfig = (lang: string) => {
   ];
 
   const nav: DefaultTheme.NavItem[] = [
-    { text: `🏠${t("主页")}`, link: urlPrefix + "/" },
-    { text: `🍟${t("食用指南")}`, link: urlPrefix + "/v3/" },
-    { text: `❓${t("遇到问题?")}`, link: urlPrefix + "/v3/faq" },
+    { text: `🏠 ${t("主页")}`, link: urlPrefix + "/" },
+    { text: `🍟 ${t("食用指南")}`, link: urlPrefix + "/v3/" },
+    { text: `❓ ${t("遇到问题?")}`, link: urlPrefix + "/v3/faq" },
     {
-      text: `📚${t("v3 相关文档")}`,
+      text: `📚 ${t("v3 相关文档")}`,
       items: [
         {
-          text: `🤔${t("游戏常见问题")}`,
+          text: `🤔 ${t("游戏常见问题")}`,
           link: urlPrefix + "/v3/minecraft-faq",
         },
         {
-          text: `😷${t("游戏版本隔离")}`,
+          text: `😷 ${t("游戏版本隔离")}`,
           link: urlPrefix + "/v3/minecraft-version-seperation",
         },
         {
-          text: `📦${t("制作游戏整合包")}`,
+          text: `📦 ${t("制作游戏整合包")}`,
           link: urlPrefix + "/v3/modpack-tutorial",
         },
         {
-          text: `❌${t("编写规则")}`,
+          text: `❌ ${t("编写规则")}`,
           link: urlPrefix + "/v3/write-rule",
         },
       ],
     },
     {
-      text: `🦽${t("v3（稳定版）")}`,
+      text: `🦽 ${t("v3（稳定版）")}`,
       items: [
-        { text: `🦽${t("v3（稳定版）")}`, link: urlPrefix + "/v3/" },
-        { text: `🛰${t("v4（预览版）")}`, link: urlPrefix + "/v4/" },
+        { text: `🦽 ${t("v3（稳定版）")}`, link: urlPrefix + "/v3/" },
+        { text: `🛰 ${t("v4（预览版）")}`, link: urlPrefix + "/v4/" },
       ],
     },
   ];
@@ -67,7 +67,7 @@ export const getLocaleConfig = (lang: string) => {
       },
     ],
     footer: {
-      message: t("用💴发电"),
+      message: t("用 💴 发电"),
       copyright:
         'MIT License © 2024-PRESENT <a href="https://github.com/BakaXL-Support">Failure Cat 🐱</a>',
     },
