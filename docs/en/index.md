@@ -22,5 +22,8 @@ features:
     details: 
   - title: 🐕‍🦺 Help each other，GL&HF
     details: 
+
+nolebase:
+  gitChangelog: false
 ---
 
