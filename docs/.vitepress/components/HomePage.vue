@@ -46,15 +46,7 @@ const members = computed(() => [
       {{ t("BakaXL 开发自 ❤") }}
     </h2>
     <VPTeamMembers size="small" :members="members" />
-    <!-- <img src="https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.wide.svg" />
-
-    <h2 text="center lg" my-5 font-bold>
-      💕
-      {{ t("Thanks to all the contributors!") }}
-    </h2>
-
-    <a href="https://github.com/vue-macros/vue-macros/graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=vue-macros/vue-macros" />
-    </a> -->
-  </div>
+  </div>u
 </template>
+
+<style></style>

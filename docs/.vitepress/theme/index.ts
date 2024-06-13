@@ -9,6 +9,7 @@ import { NolebaseGitChangelogPlugin } from "@nolebase/vitepress-plugin-git-chang
 import "@nolebase/vitepress-plugin-git-changelog/client/style.css";
 import StatusBadge from "../components/StatusBadge.vue";
 import WarnTip from "../components/WarnTip.vue";
+import BakaFourIndexButtonList from "../components/BakaFourIndexButtonList.vue";
 import Layout from "./Layout.vue";
 
 import type { Options as EnhanceOptions } from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
@@ -26,6 +27,8 @@ export default {
     app.use(NolebaseGitChangelogPlugin);
     app.component("StatusBadge", StatusBadge);
     app.component("WarnTip", WarnTip);
+    app.component("BakaFourIndexButtonList", BakaFourIndexButtonList);
+    app.component;
     app.provide(EnhanceInjectionKey, {
       layoutSwitch: {
         defaultMode: LayoutMode.BothWidthAdjustable,
