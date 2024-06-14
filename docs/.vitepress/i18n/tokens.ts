@@ -29,6 +29,8 @@ export const eng = {
   作者: "Author",
   团队成员: "Team Member",
   "BakaXL 开发自 ❤": "BakaXL Developed by ❤",
+  "关于在 Ubuntu 上运行 BakaXL 启动器的指引":
+    "Guide to running the BakaXL launcher on Ubuntu",
 };
 
 export const langMap: Record<string, Record<string, string>> = {
