@@ -1,52 +1,52 @@
 <script setup lang="ts">
-import { VPTeamMembers } from "vitepress/theme";
-import { computed } from "vue";
-import { useTranslate } from "../i18n/composable";
-import { iconMap } from "./icons";
+import { VPTeamMembers } from 'vitepress/theme'
+import { computed, shallowRef } from 'vue'
+import { useTranslate } from '../i18n/composable'
+import { iconMap } from './icons'
 
-const t = useTranslate();
+const t = useTranslate()
 
 const members = computed(() => [
   {
-    avatar: "https://github.com/tt702.png",
-    name: "TT702",
-    title: t("作者"),
+    avatar: 'https://github.com/tt702.png',
+    name: 'TT702',
+    title: t('作者'),
     links: [
-      { icon: "github", link: "https://github.com/TT702" },
+      { icon: 'github', link: 'https://github.com/TT702' },
       {
         icon: { svg: iconMap.bilibili },
-        link: "https://space.bilibili.com/515094",
+        link: 'https://space.bilibili.com/515094',
       },
     ],
   },
   {
-    avatar: "https://github.com/imfanhua.png",
-    name: "Fanhua",
-    title: t("团队成员"),
+    avatar: 'https://github.com/imfanhua.png',
+    name: 'Fanhua',
+    title: t('团队成员'),
     links: [
-      { icon: "github", link: "https://github.com/imfanhua" },
+      { icon: 'github', link: 'https://github.com/imfanhua' },
       {
         icon: { svg: iconMap.bilibili },
-        link: "https://space.bilibili.com/352711",
+        link: 'https://space.bilibili.com/352711',
       },
     ],
   },
   {
-    avatar: "https://github.com/ZhaiSoul.png",
-    name: "ZhaiSoul",
-    title: t("团队成员"),
-    links: [{ icon: "github", link: "https://github.com/ZhaiSoul" }],
+    avatar: 'https://github.com/ZhaiSoul.png',
+    name: 'ZhaiSoul',
+    title: t('团队成员'),
+    links: [{ icon: 'github', link: 'https://github.com/ZhaiSoul' }],
   },
-]);
+])
 </script>
 
 <template>
   <div flex="~ col wrap" mt8 items-center>
     <h2 text="center gray xl" mt-11 mb-4 pb-2>
-      {{ t("BakaXL 开发自 ❤") }}
+      {{ t('BakaXL 开发自 ❤') }}
     </h2>
-    <VPTeamMembers size="small" :members="members" />
-  </div>u
+    <VPTeamMembers class="w-full px-4" size="small" :members="members" />
+  </div>
 </template>
 
 <style></style>
