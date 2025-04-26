@@ -8,17 +8,31 @@ const list = [
     link: "./running-in-ubuntu",
     emoji: "🐧",
   },
+  {
+    title: "在 Linux 中运行 BakaXL 4.0 时不显示窗体",
+    link: "./no-window-in-linux",
+    emoji: "🪟"
+  }, {
+    title: "BakaXL 4.0 无限弹窗提醒更新",
+    link: "./update-remind-bug",
+    emoji: "🔄"
+  }
 ];
 </script>
 <template>
-  <VPButton
-    v-for="item in list"
-    :text="item.emoji + t(item.title)"
-    :href="item.link"
-  ></VPButton>
+  <div class="list">
+    <VPButton v-for="item in list" :text="item.emoji + t(item.title)" :href="item.link"></VPButton>
+  </div>
+
 </template>
 <style scoped>
 a {
   text-decoration: none;
+}
+
+.list {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
 }
 </style>
