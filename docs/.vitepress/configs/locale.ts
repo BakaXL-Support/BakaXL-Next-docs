@@ -3,7 +3,7 @@ import type { DefaultTheme, HeadConfig, LocaleConfig } from 'vitepress'
 
 export const getLocaleConfig = (lang: string) => {
   const t = createTranslate(lang)
-  const siteLink = 'https://next.help.bakaxl.com'
+  const siteLink = 'https://help.bakaxl.com'
   const repoLink = 'https://github.com/BakaXL-Support/BakaXL-Next-docs'
   const urlPrefix = lang && lang !== 'cn' ? `/${lang}` : ''
   const title = t('BakaXL 文档中心')
@@ -69,7 +69,7 @@ export const getLocaleConfig = (lang: string) => {
     footer: {
       message: t('用 💴 发电'),
       copyright:
-        'MIT License © 2024-PRESENT <a href="https://github.com/BakaXL-Support">Failure Cat 🐱</a>',
+        'MIT License © 2024-PRESENT <a href="https://github.com/BakaXL-Support">Failure Cats 🐱</a>',
     },
     editLink: {
       pattern: `${repoLink}/edit/main/docs/:path`,
