@@ -31,6 +31,9 @@ export const eng = {
   'BakaXL 开发自 ❤': 'BakaXL Developed by ❤',
   '关于在 Ubuntu 上运行 BakaXL 启动器的指引':
     'Guide to running the BakaXL launcher on Ubuntu',
+  '在 Linux 中运行 BakaXL 4.0 时不显示窗体':
+    'Running BakaXL 4.0 in Linux does not display the form',
+  'BakaXL 4.0 无限弹窗提醒更新': 'BakaXL 4.0 infinite pop-up reminder update',
 }
 
 export const langMap: Record<string, Record<string, string>> = {
