@@ -1,34 +1,34 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from "vue";
-import type { Theme } from "vitepress";
-import DefaultTheme from "vitepress/theme";
-import "./style.css";
-import "uno.css";
+import { h } from 'vue'
+import type { Theme } from 'vitepress'
+import DefaultTheme from 'vitepress/theme'
+import './style.css'
+import 'uno.css'
 
-import { NolebaseGitChangelogPlugin } from "@nolebase/vitepress-plugin-git-changelog/client";
-import "@nolebase/vitepress-plugin-git-changelog/client/style.css";
-import StatusBadge from "../components/StatusBadge.vue";
-import WarnTip from "../components/WarnTip.vue";
-import BakaFourIndexButtonList from "../components/BakaFourIndexButtonList.vue";
-import Layout from "./Layout.vue";
+import { NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client'
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+import StatusBadge from '../components/StatusBadge.vue'
+import WarnTip from '../components/WarnTip.vue'
+import BakaFourIndexButtonList from '../components/BakaFourIndexButtonList.vue'
+import Layout from './Layout.vue'
 
-import type { Options as EnhanceOptions } from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
+import type { Options as EnhanceOptions } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import {
   InjectionKey as EnhanceInjectionKey,
   LayoutMode,
-} from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
+} from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
 export default {
   extends: DefaultTheme,
   Layout: () => {
-    return h(Layout);
+    return h(Layout)
   },
   enhanceApp({ app, router, siteData }) {
-    app.use(NolebaseGitChangelogPlugin);
-    app.component("StatusBadge", StatusBadge);
-    app.component("WarnTip", WarnTip);
-    app.component("BakaFourIndexButtonList", BakaFourIndexButtonList);
-    app.component;
+    //app.use(NolebaseGitChangelogPlugin); // disable ChangeLog Plugin
+    app.component('StatusBadge', StatusBadge)
+    app.component('WarnTip', WarnTip)
+    app.component('BakaFourIndexButtonList', BakaFourIndexButtonList)
+    app.component('ContributorCards',)
     app.provide(EnhanceInjectionKey, {
       layoutSwitch: {
         defaultMode: LayoutMode.BothWidthAdjustable,
@@ -36,6 +36,6 @@ export default {
       spotlight: {
         defaultToggle: true,
       },
-    } as EnhanceOptions);
+    } as EnhanceOptions)
   },
-} satisfies Theme;
+} satisfies Theme

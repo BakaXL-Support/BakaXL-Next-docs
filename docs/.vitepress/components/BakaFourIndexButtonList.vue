@@ -8,15 +8,6 @@ const list = [
     link: "./running-in-ubuntu",
     emoji: "🐧",
   },
-  {
-    title: "在 Linux 中运行 BakaXL 4.0 时不显示窗体",
-    link: "./no-window-in-linux",
-    emoji: "🪟"
-  }, {
-    title: "BakaXL 4.0 无限弹窗提醒更新",
-    link: "./update-remind-bug",
-    emoji: "🔄"
-  }
 ];
 </script>
 <template>
